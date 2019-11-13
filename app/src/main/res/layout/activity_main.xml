@@ -19,11 +19,14 @@
         style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center_vertical"
         android:onClick="Siguiente"
-        android:text="Enter as a GUEST"
-        android:textSize="25dp"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="339dp" />
+        android:text="@string/app_name"
+        android:textColor="#3F51B5"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="410dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

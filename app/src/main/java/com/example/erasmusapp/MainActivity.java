@@ -14,9 +14,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-
-
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -27,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         media.setAnchorView(videoView);
 
-        Uri uri =Uri.parse("android.resource://com.example.myapplication1/" + R.raw.logonosound1);
+        Uri uri =Uri.parse("android.resource://com.example.erasmusapp/" + R.raw.logonosound1);
 
         videoView.setMediaController(media);
         videoView.setVideoURI(uri);
@@ -39,8 +36,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void Siguiente(View view){
 
-        Intent siguiente = new Intent(this,Menu.class);
+        Intent siguiente = new Intent(this,Menulateral.class);
         startActivity(siguiente);
+
 
     }
 
